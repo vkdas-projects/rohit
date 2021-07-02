@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Session 14</title>
+        <style>
+            body {
+                background-color: orange;
+                color:rebeccapurple;
+                text-align: center;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif 
+            }
+            #myform{
+                padding: 10px;
+                border: 2px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>More Form Elements</h1>
+        <h2>And</h2>
+        <h1>Input Attributes</h1>
+        <form id="myform">
+            <label for="first-name">First Name : </label>
+            <input minlength="2" autofocus required type="text"><br><br>
+            <label for="last-name">Last Name : </label>
+            <input required type="text"><br><br>
+            <label for="email">Email ID : </label>
+            <input placeholder="email_id@email.com" type="text"><br><br>
+            <label for="phonenumber">Phone Number : </label>
+            <input maxlength="10" type="text"><br><br>
+            <label for="dob">D.O.B : </label>
+            <input type="date"><br><br>
+            <label for="time">Time Of Filling the Form</label>
+            <input type="time"><br><br>
+            <label for="happiness">Select your level of happiness : </label>
+            <input type="range"><br><br>
+            <label for="course">Select Course : </label>
+            <input list="course">
+            <datalist id="course">
+                <option value="Website Development"></option>
+                <option value="Android Apps"></option>
+                <option value="Music"></option>
+            </datalist><br><br>
+            <input type="submit"  value="Submit Form">
+        </form>
+    </body>
+</html>
