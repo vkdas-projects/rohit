@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Session 15</title>
+        <style>
+            body{
+                background-color: darkgoldenrod;
+                color: white;
+                text-align: center;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+
+            .target {
+                color: darkgray;
+            }
+
+            .action{
+                color: darkolivegreen;
+            }
+            .method {
+                color: darkorange;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Form Attributes &#128512</h1>
+        <h4>Marquee Properties</h4>
+        <h2 class="action"><marquee direction="right" behavior="slide" scrollamount="10" >1. Action</marquee></h2>
+        <h2 class="target"><marquee  behavior="alternate" scrollamount="20">2. Target</marquee></h2>
+        <h2 class="method"><marquee direction="down" scrollamount="1">3. Method</marquee></h2>
+        <form action="https://www.google.com/" target="_blank" method="GET">
+            <fieldset>
+                <legend>Details Form</legend>
+                <label for="name">Enter Name : </label>
+                <input type="text"><br><br>
+                <label for="email">Enter Email ID : </label>
+                <input type="text"><br><br>
+                <label for="address">Enter Address : </label>
+                <textarea rows="5" cols="10"></textarea><br><br>
+                <input type="submit" value="Submit Form">
+            </fieldset>
+        </form>
+    </body>
+</html>
